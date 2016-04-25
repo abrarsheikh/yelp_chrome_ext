@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Yelp",
+  "version": "1.0.0",
+  "description": "Yelp App for Google Chrome",
+  "icons": {
+    "32": "icons/yelp_icon.png"
+  },
+  "background": {
+    "persistance": true,
+    "scripts": [
+      "background/background.js"
+    ]
+  },
+  "browser_action": {
+    "default_popup": "popup/index.html"
+  },
+  "permissions": [
+    "contextMenus",
+    "background",
+    "geolocation"
+  ]
+}

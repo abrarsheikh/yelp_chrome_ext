@@ -205,7 +205,7 @@ function configGenerator(Manifest) {
 
         return loaders
       })()
-    }
+    },
   }
 }
 

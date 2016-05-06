@@ -1,5 +1,5 @@
 {
-  "name": "yelp_chrome_extension",
+  "name": "Yelp",
   "version": "1.0.0",
   "description": "Yelp's Chrome Extension",
   "dependencies": {
